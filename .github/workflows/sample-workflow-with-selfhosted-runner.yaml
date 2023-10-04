@@ -26,5 +26,5 @@ jobs:
     - name: add some sleep
       run: |
             echo hello world
-            sleep 300
+            sleep 86400
 
