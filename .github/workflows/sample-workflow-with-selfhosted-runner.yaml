@@ -9,7 +9,7 @@ jobs:
   test-runner:
     runs-on: self-hosted
     container:
-      image: repo.crypto.tii.ae/docker-promoted/cloud/claasp:20231004
+      image: tiicrc/claasp-github-runner:20231004
       credentials:
         username: devopscrc
         password: ${{  secrets.DOCKER_REGISTRY_PASSWORD }}
