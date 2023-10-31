@@ -4,3 +4,5 @@ MAINTAINER sharath
 
 COPY . /usr/share/nginx/html
 
+RUN apk update
+
